@@ -11,10 +11,8 @@ public class ConexionDB {
     private static final String PASS;
 
     static {
-        // Aquí pon tus datos de Clever Cloud directamente
-        // Reemplaza con tus valores reales
         String cleverHost = "bdxuqnlkigtvty8vhtym-mysql.services.clever-cloud.com";
-        String cleverPort = "3306"; // usualmente 3306
+        String cleverPort = "3306"; 
         String cleverDb   = "bdxuqnlkigtvty8vhtym";
         String cleverUser = "uysbkhl5azbhzp0r";
         String cleverPass = "INjuQ9tV1iy29N8sKc8L";
@@ -26,7 +24,6 @@ public class ConexionDB {
         String localUser = "uysbkhl5azbhzp0r";
         String localPass = "INjuQ9tV1iy29N8sKc8L";
 
-        // Cambia esta bandera según quieras usar Local o Clever Cloud
         boolean usarCleverCloud = true;
 
         if (usarCleverCloud) {
